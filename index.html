@@ -4,11 +4,142 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><Assignment-2></Assignment-2></title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <link rel="stylesheet" href="styles.css/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="plus-jakarta-font">
+  <body class="inter-font">
     <header>
-      <h3>TechWave</h3>
+      <nav
+        class="flex justify-between bg-[#1A0B2E] w-[1600px] h-[92px] items-center mx-auto"
+      >
+        <h3 class="text-3xl font-bold ml-[200px] text-[#ffffff]">
+          Tech<span
+            class="bg-gradient-to-r from-orange-600 via-pink-500 to-purple-400 inline-block text-transparent bg-clip-text"
+            >Wave</span
+          >
+        </h3>
+        <ul class="flex gap-6 mt-2 text-[#ffffff]">
+          <li><a href="">About</a></li>
+          <li><a href="">Episodes</a></li>
+          <li><a href="">Host</a></li>
+        </ul>
+        <button
+          class="mr-[200px] w-[135px] h-11 bg-gradient-to-r from-orange-600 via-pink-500 to-purple-400 hover:from-red-500 hover:via-red-500 hover:to-red-500 text-[#ffffff] rounded-full px-4 py-2 hover:scale-105 font-bold"
+        >
+          Subscribe &rarr;
+        </button>
+      </nav>
+      <nav class="bg-[url(/assets/hero-bg.png)] mx-auto w-[1600px] h-[760px]">
+        <div class="flex justify-center">
+          <div class="relative w-[350px] h-[350px] mt-[100px] ml-[270px]">
+            <img src="./assets/hero-circle.png" alt="" />
+          </div>
+          <div
+            class="w-[200px] h-[200px] transform translate-y-[185px] -translate-x-[230px]"
+          >
+            <img src="./assets/microphone.png" alt="" />
+          </div>
+          <div
+            class="text-2xl text-center bg-[#00FF88] w-[75px] h-[38px] rounded-full transform translate-y-[110px] -translate-x-[300px]"
+          >
+            <h2>New</h2>
+          </div>
+        </div>
+
+        <div class="grid justify-center mt-10">
+          <h1
+            class="text-5xl text-[#ffffff] w-[550px] h-[73px] text-center font-bold"
+          >
+            TechWave
+          </h1>
+          <p class="text-[#ffffff] w-[550px] h-[19px] text-center">
+            Your daily does of tech insights,productivity hacks and personal
+            growth
+          </p>
+        </div>
+        <div class="flex justify-center gap-2">
+          <button
+            class="flex items-center justify-center px-1.5 py-0.5 w-[201ps] h-11 gap-[0,5px] rounded-full bg-gradient-to-r from-orange-600 via-pink-500 to-purple-400 hover:from-red-500 hover:via-red-500 hover:to-red-500 hover:scale-105 mt-[36.5px]"
+          >
+            <img class="h-5 w-5" src="./assets/spotify.png" alt="" />
+            <p class="w-[133px] text-[#ffffff] h-[19px] -mt-1">
+              Listen On Spotify
+            </p>
+          </button>
+          <button
+            class="flex items-center px-1.5 py-0.5 bg-transparent border border-[#00ff88] p-px rounded-full justify-center w-[147px] h-11 gap-[0.5p] text-[#00ff88] mt-[36.5px] hover:to-red-500 hover:scale-105"
+          >
+            <img class="w-5 h-5" src="./assets/message.png" alt="" />
+            <p class="w-[79px] h-[19px -mt-1/2 text-[#ffffff]">Subscribe</p>
+          </button>
+        </div>
+      </nav>
     </header>
+    <main>
+      <div class="w-[1600px] h-[646px] bg-[#1A0B2E] mx-auto text-center">
+        <div
+          class="w-[1200px] h-[222px] mx-[200px] transform translate-y-[50px] text-[#ffffff]"
+        >
+          <h2 class="text-4xl font-bold">About the Podcast</h2>
+          <div class="transform translate-y-3">
+            <p>
+              TechWave is your go-to podcast for staying ahead in the fast-paced
+              world of technology.
+            </p>
+            <p>
+              We break down complex topics into digestible insights, explore
+              productivity strategies that actually work,
+            </p>
+
+            <p>and share stories of personal growth from industry leaders.</p>
+          </div>
+          <p class="transform translate-y-[50px]">
+            Join thousands of young professionals and tech enthusiasts who start
+            their day with TechWave.
+          </p>
+        </div>
+        <hr
+          class="footer-line ml-[200px] mr-[200px] transform translate-y-[110px]"
+        />
+        <div
+          class="grid grid-cols-4 w-[1200px] h-[94px] mx-auto transform translate-y-[200px]"
+        >
+          <div class="grid gap-4">
+            <h2
+              class="text-4xl text-[#00ff88] font-bold mt-1 transform translate-y-3"
+            >
+              150K+
+            </h2>
+            <p class="text-bold text-[#ffffff]">Monthly Listeners</p>
+          </div>
+          <div class="grid gap-4">
+            <h2
+              class="text-4xl text-[#00ff88] font-bold transform translate-y-3"
+            >
+              200+
+            </h2>
+            <p class="text-bold text-[#ffffff]">Episodes Published</p>
+          </div>
+          <div class="grid gap-4">
+            <h2
+              class="text-4xl text-[#00ff88] font-bold transform translate-y-3"
+            >
+              4.9★
+            </h2>
+            <p class="text-bold text-[#ffffff]">Average Rating</p>
+          </div>
+          <div class="grid gap-4">
+            <h2
+              class="text-4xl text-[#00ff88] font-bold transform translate-y-3"
+            >
+              50+
+            </h2>
+            <p class="text-bold text-[#ffffff]">Industry Experts</p>
+          </div>
+        </div>
+      </div>
+    </main>
     <main></main>
     <footer></footer>
   </body>
